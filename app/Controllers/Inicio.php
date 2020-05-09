@@ -12,17 +12,15 @@ class Inicio extends BaseController
 
 
   public function iniciarSession(){
-	
+
   	//iniciar session
 	//echo view('Login');
     echo view('template/header');
     echo view('template/aside');
     echo view('template/plantilla');
     echo view('template/footer');
-
-
     // echo view('template/plantilla');
-
+// echo test para git
 
 
   }
