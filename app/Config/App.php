@@ -21,8 +21,8 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://localhost/codeigniter/';
-
+	//public $baseURL = 'http://localhost/codeigniter/';
+   public $baseURL = 'https://cork.cerberodigital.com/';
 	/*
 	|--------------------------------------------------------------------------
 	| Index File
