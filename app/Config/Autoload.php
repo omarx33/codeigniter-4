@@ -71,7 +71,10 @@ class Autoload extends \CodeIgniter\Config\AutoloadConfig
 		 *       'MyClass'   => '/path/to/class/file.php'
 		 *   ];
 		 */
-		$classmap = [];
+		$classmap = [
+
+			// aqui trate de cargar la libreria automaticamente --- 'Template' => APPPATH .'/Libraries/ExampleLibrary.php'
+		];
 
 		//--------------------------------------------------------------------
 		// Do Not Edit Below This Line
